@@ -19,7 +19,7 @@
 # minor releases. Pinning to 0.4.3 (RESEARCH §Standard Stack) keeps the
 # paper figure reproducible across reruns. Do NOT bump without rerunning
 # the harness and replacing the committed CSV+PNG.
-ragas==0.4.3
+ragas==0.4.4
 # RAGAS 0.4 imports rapidfuzz lazily from its default transforms
 # (OverlapScoreBuilder) — declared here so `pip install -r` is enough.
 rapidfuzz>=3.0
